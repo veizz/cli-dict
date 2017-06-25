@@ -1,0 +1,28 @@
+{
+  "name": "cli-dict",
+  "version": "0.1.0",
+  "description": "a dictionary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veizz/cli-dict.git"
+  },
+  "keywords": [
+    "dict",
+    "dictionary"
+  ],
+  "author": "veizz",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/veizz/cli-dict/issues"
+  },
+  "homepage": "https://github.com/veizz/cli-dict#readme",
+  "dependencies": {
+    "commander": "^2.10.0",
+    "mysql": "^2.13.0",
+    "request": "^2.81.0"
+  }
+}
