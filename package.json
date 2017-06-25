@@ -1,8 +1,11 @@
 {
-  "name": "cli-dict",
+  "name": "@veizz/cli-dict",
   "version": "0.1.0",
   "description": "a dictionary",
   "main": "index.js",
+  "bin": {
+    "v": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
