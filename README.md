@@ -1,10 +1,15 @@
 # cli-dict
-命令行里的词典 + 生词本
+命令行里的词典 + 生词本  
+
+## 讲个故事
+高中的时候，我有一个词典。遇到不认识的单词，查完之后会在词典上做上标记，经常会遇到查了第二次，第三次的单词。每当遇到这样的词，我都会多花一些时间来记忆。我觉得这对我的单词记忆非常有帮助。所以，我特地加了次数统计的功能。  
+对，只是加了次数统计，开心就好。
 
 ## 使用方法
 * clone 代码
-* 申请iciba查词key, 替换index.example.js  
-* 启动mysql, 导入`db/db_dict.sql`  
+* 申请iciba查词key, 替换conf/index.example.js, 将它改名为conf/index.js  
+* 启动mysql, 导入`db/db_dict.sql` (mysql是用来记录查词次数的，没有也能用，只不过次数都是1)  
+* 修改index.js，设置mysql的用户名密码，等参数  
 * npm install
 * 在代码目录中执行npm link
 * v --help
