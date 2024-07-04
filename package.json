@@ -26,6 +26,6 @@
   "dependencies": {
     "commander": "^2.10.0",
     "mysql2": "^3.9.7",
-    "request": "^2.81.0"
+    "node-fetch": "^3.3.2"
   }
 }
