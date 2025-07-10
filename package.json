@@ -27,5 +27,8 @@
     "commander": "^2.10.0",
     "mysql2": "^3.9.7",
     "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
